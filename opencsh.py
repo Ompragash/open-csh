@@ -28,8 +28,9 @@ class OpenCSH:
             for i in idlist:
                 case = i[:-1]
                 j.append(case)
-                for k in j:
-                    webbrowser.open("https://csh.cloudera.com/ccs/index.html#/case/" + k + "/case-details")
+            
+            for k in j:
+                webbrowser.open("https://csh.cloudera.com/ccs/index.html#/case/" + k + "/case-details")
 
     def open_case_links(self):
         webbrowser.open("https://csh.cloudera.com/ccs/index.html#/case/" + self.args.caseid + "/case-details")
