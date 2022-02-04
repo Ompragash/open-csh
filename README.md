@@ -4,7 +4,7 @@ OpenCSH is a CLI tool written in Python3 to open one or more CSH case links in t
 
 ## Requirements
 
-- Python 3+
+- Python 3
 
 ## Installation and Setup
 
